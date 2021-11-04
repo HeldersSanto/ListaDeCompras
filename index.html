@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <header>    
+        <h3>Lista de compras</h3>
+    </header>
+    <div class="list">
+        <input type="text" name="produto" id="produto_nome" placeholder="Nome do Produto">
+        <input type="number" name="valor" id="produto_preco" placeholder="Valor do produto">
+        <button type="submit" value="enviar">Add</button>
+    </div>
+    <div class="produtos">
+    </div>
+    <div class="total list">
+        <h3>R$ 0</h3>
+    </div>
+    <button name="limpar" class="btn">esvaziar carrinho</button>
+    <script src="mercado.js"></script>
+</body>
+</html>
