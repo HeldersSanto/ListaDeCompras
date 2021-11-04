@@ -6,3 +6,5 @@ Objetivo é entender sobre itens armazenados em Arrays, e manipulação de dados
 
 <a href="https://HeldersSanto.github.io/ListaDeCompras">Clique aqui para ver o projeto</a>
 
+
+<img src=ListaDeCompras.png widht=500px/>
